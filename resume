@@ -1,0 +1,100 @@
+You are given a resume. Parse the content of the resume into the following JSON format:
+
+```json
+{
+  "name": "Shreya Sinha",
+  "contact_information": {
+    "phone": "+91-7489775238",
+    "email": "sr6068@srmist.edu.in",
+    "address": "Kattankulathur, Tamil Nadu, India - 603203",
+    "linkedin": "https://www.linkedin.com/in/shreya-sinha-8b3934237",
+    "github": "https://github.com/sr6068"
+  },
+  "summary": "I'm a computer science student looking for a job to kick-start my career in the field of coding and development. Eager to apply my knowledge and learn new technologies, I seek a supportive environment where I can contribute actively to projects, enhance my skills, and grow professionally. Committed to delivering quality solutions, I am motivated to make a positive impact.",
+  "education": [
+    {
+      "degree": "B.Tech. - CSE - Information Technology",
+      "institution": "SRM Institute of Science & Technology, Kattankulathur",
+      "location": "Kattankulathur, Tamil Nadu, India",
+      "dates": "2021 - 2025",
+      "cgpa": "9.71 / 10"
+    },
+    {
+      "degree": "12th",
+      "institution": "Jawahar Navodaya Vidyalaya, BASDEI, DISTT:SURAJPUR (C.G.), Surajpur",
+      "location": "Surajpur, Chhattisgarh, India",
+      "dates": "2020",
+      "percentage": "87.60 / 100"
+    },
+    {
+      "degree": "10th",
+      "institution": "Jawahar Navodaya Vidyalaya BASDEI, DISTT:SURAJPUR (C.G.), Surajpur",
+      "location": "Surajpur, Chhattisgarh, India",
+      "dates": "2018",
+      "percentage": "82.40 / 100"
+    }
+  ],
+  "skills": [
+    "C", "C++", "Python", "HTML", "CSS", "MySQL", "AWS solution and architecture", "AIML"
+  ],
+  "awards": [
+    "Performance Based scholarship"
+  ],
+  "publications": [
+    {
+      "title": "Enhancing Crypto Ransomware Detection through Network Analysis and Machine Learning",
+      "publication_date": "12 Mar, 2024",
+      "publisher": "IGI GLOBAL",
+      "mentor": "Dr.S.Metilda Florence",
+      "authors_count": 5,
+      "key_skills": ["cybersecurity", "data science", "machine learning"]
+    }
+  ],
+  "achievements": [
+    "Got 3rd prize in Philips Ideathon"
+  ],
+  "seminars_trainings_workshops": [
+    {
+      "title": "Mastering AWS Architecture From Concepts to Implementation",
+      "date": "22 Sep, 2023 - 07 Oct, 2023",
+      "institute": "SRM Institute of Science & Technology, Kattankulathur",
+      "key_skills": ["Understanding of Cloud Concepts", "Knowledge of AWS Services"]
+    },
+    {
+      "title": "Two Days Workshops on Artificial Intelligence",
+      "date": "25 Feb, 2023 - 26 Feb, 2023",
+      "institute": "IIT Madras",
+      "key_skills": ["Understanding AI and Machine Learning", "Python Programming"]
+    }
+  ],
+  "co_curricular_activities": [
+    "HACKTRIX BY IEEE SRM",
+    "Philips Ideathon",
+    "NAMA YATRI OPEN MOBILITY CHALLENGE",
+    "SHAASTRA2024",
+    "IDEATHON 3.0"
+  ],
+  "extra_curricular_activities": [
+    "Committee member in AARUUSH",
+    "State level Volleyball"
+  ],
+  "personal_interests_hobbies": [
+    "Playing Volleyball",
+    "Badminton",
+    "Listening to music",
+    "Traveling",
+    "Reading novels"
+  ],
+  "personal_details": {
+    "gender": "Female",
+    "marital_status": "Single",
+    "current_address": "SRM Institute of Science and Technology, located in Kattankulathur, Chengalpattu (near Chennai), Tamil Nadu, India., Potheri, SRM Nagar, Kattankulathur, Tamil Nadu 603203",
+    "date_of_birth": "10 Oct, 2003",
+    "languages_known": ["Hindi", "English"],
+    "permanent_address": "90, Khopamahua, Ramanujganj, Balrampur, Diwakar Mishra lane, RAMANUJGANJ, Chhattisgarh, India - 497220",
+    "additional_emails": ["shreyasinha4699@gmail.com"]
+  }
+}
+
+Here is the resume:
+
